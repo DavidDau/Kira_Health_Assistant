@@ -4,7 +4,9 @@ A healthcare-specific AI assistant built by fine-tuning a Large Language Model (
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/Kira_Health_Assistant/blob/main/kira_health_assistant.ipynb)
 
-## 🎯 Project Overview
+> ** Windows Users**: If you're on Windows, use Google Colab (click badge above). Local setup has compatibility issues with Python 3.13. See [WINDOWS_USERS_READ_ME.md](WINDOWS_USERS_READ_ME.md) for details.
+
+## Project Overview
 
 This project demonstrates:
 
@@ -14,7 +16,7 @@ This project demonstrates:
 - **Evaluation** using NLP metrics (ROUGE, perplexity)
 - Training on **Google Colab's free GPU** resources
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1: Google Colab (Recommended)
 
@@ -37,7 +39,7 @@ pip install -r requirements.txt
 jupyter notebook kira_health_assistant.ipynb
 ```
 
-## 📊 Dataset
+## Dataset
 
 **Source**: [Medical Meadow Medical Flashcards](https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards)
 
@@ -53,7 +55,7 @@ jupyter notebook kira_health_assistant.ipynb
 3. **Normalization**: Cleaned and formatted for consistent training
 4. **Context Window**: Sequences limited to 512 tokens
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### Base Model
 
